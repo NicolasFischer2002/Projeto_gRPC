@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\services\\calculogeometricovolumetricoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:services\\calculogeometricovolumetricoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\services\\calculogeometricoplanoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:services\\calculogeometricoplanoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\protos\\calculosgeometricosvolumetricos.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:protos\\calculosgeometricosvolumetricos.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\protos\\calculosgeometricosplanos.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:protos\\calculosgeometricosplanos.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\grpc_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:grpc_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67E2ED0E-6E14-4B1B-91B2-7124135BD6A9}|gRPC_Server.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculoGeometricoVolumetricoService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Services\\CalculoGeometricoVolumetricoService.cs",
+              "RelativeDocumentMoniker": "Services\\CalculoGeometricoVolumetricoService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Services\\CalculoGeometricoVolumetricoService.cs",
+              "RelativeToolTip": "Services\\CalculoGeometricoVolumetricoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:44:12.92Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculoGeometricoPlanoService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Services\\CalculoGeometricoPlanoService.cs",
+              "RelativeDocumentMoniker": "Services\\CalculoGeometricoPlanoService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Services\\CalculoGeometricoPlanoService.cs",
+              "RelativeToolTip": "Services\\CalculoGeometricoPlanoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:09:14.053Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "calculosGeometricosVolumetricos.proto",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Protos\\calculosGeometricosVolumetricos.proto",
+              "RelativeDocumentMoniker": "Protos\\calculosGeometricosVolumetricos.proto",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Protos\\calculosGeometricosVolumetricos.proto",
+              "RelativeToolTip": "Protos\\calculosGeometricosVolumetricos.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-14T00:46:04.129Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "calculosGeometricosPlanos.proto",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Protos\\calculosGeometricosPlanos.proto",
+              "RelativeDocumentMoniker": "Protos\\calculosGeometricosPlanos.proto",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Protos\\calculosGeometricosPlanos.proto",
+              "RelativeToolTip": "Protos\\calculosGeometricosPlanos.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-14T00:43:29.356Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:12:57.888Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "gRPC_Server",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\gRPC_Server.csproj",
+              "RelativeDocumentMoniker": "gRPC_Server.csproj",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\gRPC_Server.csproj",
+              "RelativeToolTip": "gRPC_Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-15T16:22:49.592Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Server\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-15T20:36:31.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

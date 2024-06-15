@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC_Server.Protos";
+
+package calculosGeometricosVolumetricos;
+
+service CalculoGeometricoVolumetrico {
+	rpc VolumePiramideBaseQuadrada (PiramideBaseQuadrada) returns (Volume);
+	rpc VolumeParalelepipedo (Paralelepipedo) returns (Volume);
+}
+
+message PiramideBaseQuadrada {
+	double areaBase = 1;
+	double altura = 2;
+}
+
+message Paralelepipedo {
+	double areaBase = 1;
+	double altura = 2;
+}
+
+message Volume {
+	double volume_ = 1;
+}

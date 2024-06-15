@@ -1,0 +1,48 @@
+// Indica que a versão 3 da sintaxe Protobuf está sendo utilizada.
+syntax = "proto3";
+
+// Define o namespace C# para o código gerado.
+option csharp_namespace = "gRPC_Server.Protos";
+
+// O package serve para organizar logicamente serviços e mensagens e
+// evitar conflitos de nomes entre diferentes arquivos .proto.
+package calculosGeometricosPlanos;
+
+// Define o serviço gRPC chamado 'CalculoGeometricoPlano'.
+// Um serviço contém uma ou mais RPC (Remote Procedure Calls) que o cliente pode chamar.
+service CalculoGeometricoPlano {
+    // Define um método RPC chamado 'AreaTriangulo'.
+    // O cliente envia uma mensagem 'Triangulo' e recebe uma mensagem 'Area'.
+    rpc AreaTriangulo (Triangulo) returns (Area);
+    
+    // Define um método RPC chamado 'AreaRetangulo'.
+    // O cliente envia uma mensagem 'Retangulo' e recebe uma mensagem 'Area'.
+    rpc AreaRetangulo (Retangulo) returns (Area);
+}
+
+// Define uma mensagem 'Triangulo'.
+// Essa mensagem será usada para enviar os parâmetros da RPC 'AreaTriangulo'.
+message Triangulo {
+    // Campo que representa a base do triângulo.
+    double base = 1;
+
+    // Campo que representa a altura do triângulo.
+    double altura = 2;
+}
+
+// Define uma mensagem 'Retangulo'.
+// Essa mensagem será usada para enviar os parâmetros da RPC 'AreaRetangulo'.
+message Retangulo {
+    // Campo que representa o comprimento do retângulo.
+    double comprimento = 1;
+
+    // Campo que representa a largura do retângulo.
+    double largura = 2;
+}
+
+// Define uma mensagem 'Area'.
+// Essa mensagem será usada para enviar o resultado das RPCs 'AreaTriangulo' e 'AreaRetangulo'.
+message Area {
+    // Campo que representa a área calculada.
+    double area_ = 1;
+}

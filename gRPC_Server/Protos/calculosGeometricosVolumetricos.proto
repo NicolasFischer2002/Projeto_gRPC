@@ -1,0 +1,48 @@
+// Indica que a versão 3 da sintaxe Protobuf está sendo utilizada.
+syntax = "proto3";
+
+// Define o namespace C# para o código gerado.
+option csharp_namespace = "gRPC_Server.Protos";
+
+// O package serve para organizar logicamente serviços e mensagens e
+// evitar conflitos de nomes entre diferentes arquivos .proto.
+package calculosGeometricosVolumetricos;
+
+// Define o serviço gRPC chamado 'CalculoGeometricoVolumetrico'.
+// Um serviço contém uma ou mais RPC (Remote Procedure Calls) que o cliente pode chamar.
+service CalculoGeometricoVolumetrico {
+    // Define um método RPC chamado 'VolumePiramideBaseQuadrada'.
+    // O cliente envia uma mensagem 'PiramideBaseQuadrada' e recebe uma mensagem 'Volume'.
+    rpc VolumePiramideBaseQuadrada (PiramideBaseQuadrada) returns (Volume);
+    
+    // Define um método RPC chamado 'VolumeParalelepipedo'.
+    // O cliente envia uma mensagem 'Paralelepipedo' e recebe uma mensagem 'Volume'.
+    rpc VolumeParalelepipedo (Paralelepipedo) returns (Volume);
+}
+
+// Define uma mensagem 'PiramideBaseQuadrada'.
+// Essa mensagem será usada para enviar os parâmetros da RPC 'VolumePiramideBaseQuadrada'.
+message PiramideBaseQuadrada {
+    // Campo que representa a área da base da pirâmide.
+    double areaBase = 1;
+
+    // Campo que representa a altura da pirâmide.
+    double altura = 2;
+}
+
+// Define uma mensagem 'Paralelepipedo'.
+// Essa mensagem será usada para enviar os parâmetros da RPC 'VolumeParalelepipedo'.
+message Paralelepipedo {
+    // Campo que representa a área da base do paralelepípedo.
+    double areaBase = 1;
+
+    // Campo que representa a altura do paralelepípedo.
+    double altura = 2;
+}
+
+// Define uma mensagem 'Volume'.
+// Essa mensagem será usada para enviar o resultado das RPCs 'VolumePiramideBaseQuadrada' e 'VolumeParalelepipedo'.
+message Volume {
+    // Campo que representa o volume calculado.
+    double volume_ = 1;
+}

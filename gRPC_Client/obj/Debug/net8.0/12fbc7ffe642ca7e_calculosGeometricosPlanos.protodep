@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/CalculosGeometricosPlanos.cs \
+obj\Debug\net8.0\Protos/CalculosGeometricosPlanosGrpc.cs: Protos/calculosGeometricosPlanos.proto
