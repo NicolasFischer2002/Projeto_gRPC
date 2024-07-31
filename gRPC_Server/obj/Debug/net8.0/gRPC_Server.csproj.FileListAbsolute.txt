@@ -66,3 +66,46 @@ C:\Desenvolvimento\WEB\GitHub\Projeto_gRPC 2\gRPC_Server\obj\Debug\net8.0\refint
 C:\Desenvolvimento\WEB\GitHub\Projeto_gRPC 2\gRPC_Server\obj\Debug\net8.0\gRPC_Server.pdb
 C:\Desenvolvimento\WEB\GitHub\Projeto_gRPC 2\gRPC_Server\obj\Debug\net8.0\gRPC_Server.genruntimeconfig.cache
 C:\Desenvolvimento\WEB\GitHub\Projeto_gRPC 2\gRPC_Server\obj\Debug\net8.0\ref\gRPC_Server.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\appsettings.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\gRPC_Server.exe
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\gRPC_Server.deps.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\gRPC_Server.runtimeconfig.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\gRPC_Server.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\gRPC_Server.pdb
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.csproj.AssemblyReference.cache
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.AssemblyInfoInputs.cache
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.AssemblyInfo.cs
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.sourcelink.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets\msbuild.gRPC_Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets\msbuild.build.gRPC_Server.props
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.gRPC_Server.props
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.gRPC_Server.props
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\scopedcss\bundle\gRPC_Server.styles.css
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Ser.565CE8ED.Up2Date
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\refint\gRPC_Server.dll
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.pdb
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\gRPC_Server.genruntimeconfig.cache
+C:\Desenvolvimento\Projeto_gRPC\gRPC_Server\obj\Debug\net8.0\ref\gRPC_Server.dll

@@ -25,21 +25,22 @@ namespace gRPC_Server.Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiZQcm90b3MvY2FsY3Vsb3NHZW9tZXRyaWNvc1BsYW5vcy5wcm90bxIZY2Fs",
-            "Y3Vsb3NHZW9tZXRyaWNvc1BsYW5vcyIpCglUcmlhbmd1bG8SDAoEYmFzZRgB",
-            "IAEoARIOCgZhbHR1cmEYAiABKAEiMQoJUmV0YW5ndWxvEhMKC2NvbXByaW1l",
-            "bnRvGAEgASgBEg8KB2xhcmd1cmEYAiABKAEiFQoEQXJlYRINCgVhcmVhXxgB",
-            "IAEoATLIAQoWQ2FsY3Vsb0dlb21ldHJpY29QbGFubxJWCg1BcmVhVHJpYW5n",
-            "dWxvEiQuY2FsY3Vsb3NHZW9tZXRyaWNvc1BsYW5vcy5Ucmlhbmd1bG8aHy5j",
-            "YWxjdWxvc0dlb21ldHJpY29zUGxhbm9zLkFyZWESVgoNQXJlYVJldGFuZ3Vs",
-            "bxIkLmNhbGN1bG9zR2VvbWV0cmljb3NQbGFub3MuUmV0YW5ndWxvGh8uY2Fs",
-            "Y3Vsb3NHZW9tZXRyaWNvc1BsYW5vcy5BcmVhQhWqAhJnUlBDX1NlcnZlci5Q",
-            "cm90b3NiBnByb3RvMw=="));
+            "Y3Vsb3NHZW9tZXRyaWNvc1BsYW5vcyIwChBUcmlhbmd1bG9SZXF1ZXN0EgwK",
+            "BGJhc2UYASABKAESDgoGYWx0dXJhGAIgASgBIjgKEFJldGFuZ3Vsb1JlcXVl",
+            "c3QSEwoLY29tcHJpbWVudG8YASABKAESDwoHbGFyZ3VyYRgCIAEoASIZCglB",
+            "cmVhUmVwbHkSDAoEYXJlYRgBIAEoATLgAQoWQ2FsY3Vsb0dlb21ldHJpY29Q",
+            "bGFubxJiCg1BcmVhVHJpYW5ndWxvEisuY2FsY3Vsb3NHZW9tZXRyaWNvc1Bs",
+            "YW5vcy5Ucmlhbmd1bG9SZXF1ZXN0GiQuY2FsY3Vsb3NHZW9tZXRyaWNvc1Bs",
+            "YW5vcy5BcmVhUmVwbHkSYgoNQXJlYVJldGFuZ3VsbxIrLmNhbGN1bG9zR2Vv",
+            "bWV0cmljb3NQbGFub3MuUmV0YW5ndWxvUmVxdWVzdBokLmNhbGN1bG9zR2Vv",
+            "bWV0cmljb3NQbGFub3MuQXJlYVJlcGx5QhWqAhJnUlBDX1NlcnZlci5Qcm90",
+            "b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.Triangulo), global::gRPC_Server.Protos.Triangulo.Parser, new[]{ "Base", "Altura" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.Retangulo), global::gRPC_Server.Protos.Retangulo.Parser, new[]{ "Comprimento", "Largura" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.Area), global::gRPC_Server.Protos.Area.Parser, new[]{ "Area_" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.TrianguloRequest), global::gRPC_Server.Protos.TrianguloRequest.Parser, new[]{ "Base", "Altura" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.RetanguloRequest), global::gRPC_Server.Protos.RetanguloRequest.Parser, new[]{ "Comprimento", "Largura" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.AreaReply), global::gRPC_Server.Protos.AreaReply.Parser, new[]{ "Area" }, null, null, null, null)
           }));
     }
     #endregion
@@ -47,19 +48,19 @@ namespace gRPC_Server.Protos {
   }
   #region Messages
   /// <summary>
-  /// Define uma mensagem 'Triangulo'.
+  /// Define uma mensagem 'TrianguloRequest'.
   /// Essa mensagem será usada para enviar os parâmetros da RPC 'AreaTriangulo'.
   /// </summary>
-  public sealed partial class Triangulo : pb::IMessage<Triangulo>
+  public sealed partial class TrianguloRequest : pb::IMessage<TrianguloRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Triangulo> _parser = new pb::MessageParser<Triangulo>(() => new Triangulo());
+    private static readonly pb::MessageParser<TrianguloRequest> _parser = new pb::MessageParser<TrianguloRequest>(() => new TrianguloRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Triangulo> Parser { get { return _parser; } }
+    public static pb::MessageParser<TrianguloRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -75,7 +76,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Triangulo() {
+    public TrianguloRequest() {
       OnConstruction();
     }
 
@@ -83,7 +84,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Triangulo(Triangulo other) : this() {
+    public TrianguloRequest(TrianguloRequest other) : this() {
       base_ = other.base_;
       altura_ = other.altura_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -91,8 +92,8 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Triangulo Clone() {
-      return new Triangulo(this);
+    public TrianguloRequest Clone() {
+      return new TrianguloRequest(this);
     }
 
     /// <summary>Field number for the "base" field.</summary>
@@ -128,12 +129,12 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as Triangulo);
+      return Equals(other as TrianguloRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Triangulo other) {
+    public bool Equals(TrianguloRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -219,7 +220,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Triangulo other) {
+    public void MergeFrom(TrianguloRequest other) {
       if (other == null) {
         return;
       }
@@ -286,16 +287,16 @@ namespace gRPC_Server.Protos {
   /// Define uma mensagem 'Retangulo'.
   /// Essa mensagem será usada para enviar os parâmetros da RPC 'AreaRetangulo'.
   /// </summary>
-  public sealed partial class Retangulo : pb::IMessage<Retangulo>
+  public sealed partial class RetanguloRequest : pb::IMessage<RetanguloRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Retangulo> _parser = new pb::MessageParser<Retangulo>(() => new Retangulo());
+    private static readonly pb::MessageParser<RetanguloRequest> _parser = new pb::MessageParser<RetanguloRequest>(() => new RetanguloRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Retangulo> Parser { get { return _parser; } }
+    public static pb::MessageParser<RetanguloRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -311,7 +312,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Retangulo() {
+    public RetanguloRequest() {
       OnConstruction();
     }
 
@@ -319,7 +320,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Retangulo(Retangulo other) : this() {
+    public RetanguloRequest(RetanguloRequest other) : this() {
       comprimento_ = other.comprimento_;
       largura_ = other.largura_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -327,8 +328,8 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Retangulo Clone() {
-      return new Retangulo(this);
+    public RetanguloRequest Clone() {
+      return new RetanguloRequest(this);
     }
 
     /// <summary>Field number for the "comprimento" field.</summary>
@@ -364,12 +365,12 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as Retangulo);
+      return Equals(other as RetanguloRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Retangulo other) {
+    public bool Equals(RetanguloRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -455,7 +456,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Retangulo other) {
+    public void MergeFrom(RetanguloRequest other) {
       if (other == null) {
         return;
       }
@@ -522,16 +523,16 @@ namespace gRPC_Server.Protos {
   /// Define uma mensagem 'Area'.
   /// Essa mensagem será usada para enviar o resultado das RPCs 'AreaTriangulo' e 'AreaRetangulo'.
   /// </summary>
-  public sealed partial class Area : pb::IMessage<Area>
+  public sealed partial class AreaReply : pb::IMessage<AreaReply>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Area> _parser = new pb::MessageParser<Area>(() => new Area());
+    private static readonly pb::MessageParser<AreaReply> _parser = new pb::MessageParser<AreaReply>(() => new AreaReply());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Area> Parser { get { return _parser; } }
+    public static pb::MessageParser<AreaReply> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -547,7 +548,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Area() {
+    public AreaReply() {
       OnConstruction();
     }
 
@@ -555,26 +556,26 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Area(Area other) : this() {
+    public AreaReply(AreaReply other) : this() {
       area_ = other.area_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Area Clone() {
-      return new Area(this);
+    public AreaReply Clone() {
+      return new AreaReply(this);
     }
 
-    /// <summary>Field number for the "area_" field.</summary>
-    public const int Area_FieldNumber = 1;
+    /// <summary>Field number for the "area" field.</summary>
+    public const int AreaFieldNumber = 1;
     private double area_;
     /// <summary>
     /// Campo que representa a área calculada.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public double Area_ {
+    public double Area {
       get { return area_; }
       set {
         area_ = value;
@@ -584,19 +585,19 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as Area);
+      return Equals(other as AreaReply);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Area other) {
+    public bool Equals(AreaReply other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Area_, other.Area_)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Area, other.Area)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -604,7 +605,7 @@ namespace gRPC_Server.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Area_ != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Area_);
+      if (Area != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Area);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -623,9 +624,9 @@ namespace gRPC_Server.Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Area_ != 0D) {
+      if (Area != 0D) {
         output.WriteRawTag(9);
-        output.WriteDouble(Area_);
+        output.WriteDouble(Area);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -637,9 +638,9 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Area_ != 0D) {
+      if (Area != 0D) {
         output.WriteRawTag(9);
-        output.WriteDouble(Area_);
+        output.WriteDouble(Area);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -651,7 +652,7 @@ namespace gRPC_Server.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Area_ != 0D) {
+      if (Area != 0D) {
         size += 1 + 8;
       }
       if (_unknownFields != null) {
@@ -662,12 +663,12 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Area other) {
+    public void MergeFrom(AreaReply other) {
       if (other == null) {
         return;
       }
-      if (other.Area_ != 0D) {
-        Area_ = other.Area_;
+      if (other.Area != 0D) {
+        Area = other.Area;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -685,7 +686,7 @@ namespace gRPC_Server.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 9: {
-            Area_ = input.ReadDouble();
+            Area = input.ReadDouble();
             break;
           }
         }
@@ -704,7 +705,7 @@ namespace gRPC_Server.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 9: {
-            Area_ = input.ReadDouble();
+            Area = input.ReadDouble();
             break;
           }
         }

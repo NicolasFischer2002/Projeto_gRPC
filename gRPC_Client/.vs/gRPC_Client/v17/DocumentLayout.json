@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Client\\",
+  "WorkspaceRootPath": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|c:\\desenvolvimento\\projeto_grpc\\grpc_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|c:\\desenvolvimento\\web\\github\\projeto_grpc 2\\grpc_client\\grpc_client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|c:\\desenvolvimento\\projeto_grpc\\grpc_client\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|c:\\desenvolvimento\\projeto_grpc\\grpc_client\\grpc_client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6541403A-06B1-46A6-B5F8-DBB9730F7A10}|gRPC_Client.csproj|solutionrelative:grpc_client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -24,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Client\\Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Client\\Program.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T16:18:11.44Z",
               "IsPinned": true,
@@ -37,14 +41,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T23:59:44.924Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "gRPC_Client",
-              "DocumentMoniker": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Client\\gRPC_Client.csproj",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\gRPC_Client.csproj",
               "RelativeDocumentMoniker": "gRPC_Client.csproj",
-              "ToolTip": "C:\\Desenvolvimento\\WEB\\GitHub\\Projeto_gRPC 2\\gRPC_Client\\gRPC_Client.csproj",
+              "ToolTip": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_Client\\gRPC_Client.csproj",
               "RelativeToolTip": "gRPC_Client.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABzAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-15T16:21:31.182Z",
+              "WhenOpened": "2024-07-31T00:24:29.181Z",
               "IsPinned": true,
               "EditorCaption": ""
             }

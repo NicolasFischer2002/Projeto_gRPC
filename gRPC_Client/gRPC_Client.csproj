@@ -16,8 +16,9 @@
     </PackageReference>
 	  
 	<!-- Inclusão das interfaces dos serviços exportados pelo servidor gRPC que serão consumidos aqui, no cliente. -->
-	<Protobuf Include="Protos\calculosGeometricosPlanos.proto" GrpcServices="Client" />
-	<Protobuf Include="Protos\calculosGeometricosVolumetricos.proto" GrpcServices="Client" />	  
+	  <Protobuf Include="gRPC Services\Protos\calculosGeometricosPlanos.proto" GrpcServices="Client" />
+	  <Protobuf Include="gRPC Services\Protos\calculosGeometricosVolumetricos.proto" GrpcServices="Client" />
+	  <Protobuf Include="gRPC Authentication\Protos\authentication.proto" GrpcServices="Client" />	  
   </ItemGroup>
 
 </Project>

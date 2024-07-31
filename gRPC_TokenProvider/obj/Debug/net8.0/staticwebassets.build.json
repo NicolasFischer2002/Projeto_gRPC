@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "b5u1BPqSGpdvJ5a785UeHkif48wT7drZFX9R2iEQ92Y=",
+  "Source": "gRPC_TokenProvider",
+  "BasePath": "_content/gRPC_TokenProvider",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

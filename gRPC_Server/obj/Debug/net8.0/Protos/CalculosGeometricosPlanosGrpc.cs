@@ -52,27 +52,27 @@ namespace gRPC_Server.Protos {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::gRPC_Server.Protos.Triangulo> __Marshaller_calculosGeometricosPlanos_Triangulo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.Triangulo.Parser));
+    static readonly grpc::Marshaller<global::gRPC_Server.Protos.TrianguloRequest> __Marshaller_calculosGeometricosPlanos_TrianguloRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.TrianguloRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::gRPC_Server.Protos.Area> __Marshaller_calculosGeometricosPlanos_Area = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.Area.Parser));
+    static readonly grpc::Marshaller<global::gRPC_Server.Protos.AreaReply> __Marshaller_calculosGeometricosPlanos_AreaReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.AreaReply.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::gRPC_Server.Protos.Retangulo> __Marshaller_calculosGeometricosPlanos_Retangulo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.Retangulo.Parser));
+    static readonly grpc::Marshaller<global::gRPC_Server.Protos.RetanguloRequest> __Marshaller_calculosGeometricosPlanos_RetanguloRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.RetanguloRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::gRPC_Server.Protos.Triangulo, global::gRPC_Server.Protos.Area> __Method_AreaTriangulo = new grpc::Method<global::gRPC_Server.Protos.Triangulo, global::gRPC_Server.Protos.Area>(
+    static readonly grpc::Method<global::gRPC_Server.Protos.TrianguloRequest, global::gRPC_Server.Protos.AreaReply> __Method_AreaTriangulo = new grpc::Method<global::gRPC_Server.Protos.TrianguloRequest, global::gRPC_Server.Protos.AreaReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "AreaTriangulo",
-        __Marshaller_calculosGeometricosPlanos_Triangulo,
-        __Marshaller_calculosGeometricosPlanos_Area);
+        __Marshaller_calculosGeometricosPlanos_TrianguloRequest,
+        __Marshaller_calculosGeometricosPlanos_AreaReply);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::gRPC_Server.Protos.Retangulo, global::gRPC_Server.Protos.Area> __Method_AreaRetangulo = new grpc::Method<global::gRPC_Server.Protos.Retangulo, global::gRPC_Server.Protos.Area>(
+    static readonly grpc::Method<global::gRPC_Server.Protos.RetanguloRequest, global::gRPC_Server.Protos.AreaReply> __Method_AreaRetangulo = new grpc::Method<global::gRPC_Server.Protos.RetanguloRequest, global::gRPC_Server.Protos.AreaReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "AreaRetangulo",
-        __Marshaller_calculosGeometricosPlanos_Retangulo,
-        __Marshaller_calculosGeometricosPlanos_Area);
+        __Marshaller_calculosGeometricosPlanos_RetanguloRequest,
+        __Marshaller_calculosGeometricosPlanos_AreaReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -92,7 +92,7 @@ namespace gRPC_Server.Protos {
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.Area> AreaTriangulo(global::gRPC_Server.Protos.Triangulo request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.AreaReply> AreaTriangulo(global::gRPC_Server.Protos.TrianguloRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -105,7 +105,7 @@ namespace gRPC_Server.Protos {
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.Area> AreaRetangulo(global::gRPC_Server.Protos.Retangulo request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.AreaReply> AreaRetangulo(global::gRPC_Server.Protos.RetanguloRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -129,8 +129,8 @@ namespace gRPC_Server.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, CalculoGeometricoPlanoBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_AreaTriangulo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.Triangulo, global::gRPC_Server.Protos.Area>(serviceImpl.AreaTriangulo));
-      serviceBinder.AddMethod(__Method_AreaRetangulo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.Retangulo, global::gRPC_Server.Protos.Area>(serviceImpl.AreaRetangulo));
+      serviceBinder.AddMethod(__Method_AreaTriangulo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.TrianguloRequest, global::gRPC_Server.Protos.AreaReply>(serviceImpl.AreaTriangulo));
+      serviceBinder.AddMethod(__Method_AreaRetangulo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.RetanguloRequest, global::gRPC_Server.Protos.AreaReply>(serviceImpl.AreaRetangulo));
     }
 
   }

@@ -1,0 +1,2 @@
+obj\Debug\net8.0\gRPC Services\Protos/CalculosGeometricosVolumetricos.cs \
+obj\Debug\net8.0\gRPC Services\Protos/CalculosGeometricosVolumetricosGrpc.cs: gRPC Services/Protos/calculosGeometricosVolumetricos.proto

@@ -25,23 +25,24 @@ namespace gRPC_Server.Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CixQcm90b3MvY2FsY3Vsb3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcy5wcm90",
-            "bxIfY2FsY3Vsb3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcyI4ChRQaXJhbWlk",
-            "ZUJhc2VRdWFkcmFkYRIQCghhcmVhQmFzZRgBIAEoARIOCgZhbHR1cmEYAiAB",
-            "KAEiMgoOUGFyYWxlbGVwaXBlZG8SEAoIYXJlYUJhc2UYASABKAESDgoGYWx0",
-            "dXJhGAIgASgBIhkKBlZvbHVtZRIPCgd2b2x1bWVfGAEgASgBMo4CChxDYWxj",
-            "dWxvR2VvbWV0cmljb1ZvbHVtZXRyaWNvEnwKGlZvbHVtZVBpcmFtaWRlQmFz",
-            "ZVF1YWRyYWRhEjUuY2FsY3Vsb3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcy5Q",
-            "aXJhbWlkZUJhc2VRdWFkcmFkYRonLmNhbGN1bG9zR2VvbWV0cmljb3NWb2x1",
-            "bWV0cmljb3MuVm9sdW1lEnAKFFZvbHVtZVBhcmFsZWxlcGlwZWRvEi8uY2Fs",
-            "Y3Vsb3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcy5QYXJhbGVsZXBpcGVkbxon",
-            "LmNhbGN1bG9zR2VvbWV0cmljb3NWb2x1bWV0cmljb3MuVm9sdW1lQhWqAhJn",
-            "UlBDX1NlcnZlci5Qcm90b3NiBnByb3RvMw=="));
+            "bxIfY2FsY3Vsb3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcyI/ChtQaXJhbWlk",
+            "ZUJhc2VRdWFkcmFkYVJlcXVlc3QSEAoIYXJlYUJhc2UYASABKAESDgoGYWx0",
+            "dXJhGAIgASgBIjkKFVBhcmFsZWxlcGlwZWRvUmVxdWVzdBIQCghhcmVhQmFz",
+            "ZRgBIAEoARIOCgZhbHR1cmEYAiABKAEiHQoLVm9sdW1lUmVwbHkSDgoGdm9s",
+            "dW1lGAEgASgBMqcCChxDYWxjdWxvR2VvbWV0cmljb1ZvbHVtZXRyaWNvEogB",
+            "ChpWb2x1bWVQaXJhbWlkZUJhc2VRdWFkcmFkYRI8LmNhbGN1bG9zR2VvbWV0",
+            "cmljb3NWb2x1bWV0cmljb3MuUGlyYW1pZGVCYXNlUXVhZHJhZGFSZXF1ZXN0",
+            "GiwuY2FsY3Vsb3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcy5Wb2x1bWVSZXBs",
+            "eRJ8ChRWb2x1bWVQYXJhbGVsZXBpcGVkbxI2LmNhbGN1bG9zR2VvbWV0cmlj",
+            "b3NWb2x1bWV0cmljb3MuUGFyYWxlbGVwaXBlZG9SZXF1ZXN0GiwuY2FsY3Vs",
+            "b3NHZW9tZXRyaWNvc1ZvbHVtZXRyaWNvcy5Wb2x1bWVSZXBseUIVqgISZ1JQ",
+            "Q19TZXJ2ZXIuUHJvdG9zYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.PiramideBaseQuadrada), global::gRPC_Server.Protos.PiramideBaseQuadrada.Parser, new[]{ "AreaBase", "Altura" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.Paralelepipedo), global::gRPC_Server.Protos.Paralelepipedo.Parser, new[]{ "AreaBase", "Altura" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.Volume), global::gRPC_Server.Protos.Volume.Parser, new[]{ "Volume_" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.PiramideBaseQuadradaRequest), global::gRPC_Server.Protos.PiramideBaseQuadradaRequest.Parser, new[]{ "AreaBase", "Altura" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.ParalelepipedoRequest), global::gRPC_Server.Protos.ParalelepipedoRequest.Parser, new[]{ "AreaBase", "Altura" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_Server.Protos.VolumeReply), global::gRPC_Server.Protos.VolumeReply.Parser, new[]{ "Volume" }, null, null, null, null)
           }));
     }
     #endregion
@@ -49,19 +50,19 @@ namespace gRPC_Server.Protos {
   }
   #region Messages
   /// <summary>
-  /// Define uma mensagem 'PiramideBaseQuadrada'.
+  /// Define uma mensagem 'PiramideBaseQuadradaRequest'.
   /// Essa mensagem será usada para enviar os parâmetros da RPC 'VolumePiramideBaseQuadrada'.
   /// </summary>
-  public sealed partial class PiramideBaseQuadrada : pb::IMessage<PiramideBaseQuadrada>
+  public sealed partial class PiramideBaseQuadradaRequest : pb::IMessage<PiramideBaseQuadradaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<PiramideBaseQuadrada> _parser = new pb::MessageParser<PiramideBaseQuadrada>(() => new PiramideBaseQuadrada());
+    private static readonly pb::MessageParser<PiramideBaseQuadradaRequest> _parser = new pb::MessageParser<PiramideBaseQuadradaRequest>(() => new PiramideBaseQuadradaRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<PiramideBaseQuadrada> Parser { get { return _parser; } }
+    public static pb::MessageParser<PiramideBaseQuadradaRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -77,7 +78,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PiramideBaseQuadrada() {
+    public PiramideBaseQuadradaRequest() {
       OnConstruction();
     }
 
@@ -85,7 +86,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PiramideBaseQuadrada(PiramideBaseQuadrada other) : this() {
+    public PiramideBaseQuadradaRequest(PiramideBaseQuadradaRequest other) : this() {
       areaBase_ = other.areaBase_;
       altura_ = other.altura_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -93,8 +94,8 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public PiramideBaseQuadrada Clone() {
-      return new PiramideBaseQuadrada(this);
+    public PiramideBaseQuadradaRequest Clone() {
+      return new PiramideBaseQuadradaRequest(this);
     }
 
     /// <summary>Field number for the "areaBase" field.</summary>
@@ -130,12 +131,12 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as PiramideBaseQuadrada);
+      return Equals(other as PiramideBaseQuadradaRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(PiramideBaseQuadrada other) {
+    public bool Equals(PiramideBaseQuadradaRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -221,7 +222,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(PiramideBaseQuadrada other) {
+    public void MergeFrom(PiramideBaseQuadradaRequest other) {
       if (other == null) {
         return;
       }
@@ -288,16 +289,16 @@ namespace gRPC_Server.Protos {
   /// Define uma mensagem 'Paralelepipedo'.
   /// Essa mensagem será usada para enviar os parâmetros da RPC 'VolumeParalelepipedo'.
   /// </summary>
-  public sealed partial class Paralelepipedo : pb::IMessage<Paralelepipedo>
+  public sealed partial class ParalelepipedoRequest : pb::IMessage<ParalelepipedoRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Paralelepipedo> _parser = new pb::MessageParser<Paralelepipedo>(() => new Paralelepipedo());
+    private static readonly pb::MessageParser<ParalelepipedoRequest> _parser = new pb::MessageParser<ParalelepipedoRequest>(() => new ParalelepipedoRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Paralelepipedo> Parser { get { return _parser; } }
+    public static pb::MessageParser<ParalelepipedoRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -313,7 +314,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Paralelepipedo() {
+    public ParalelepipedoRequest() {
       OnConstruction();
     }
 
@@ -321,7 +322,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Paralelepipedo(Paralelepipedo other) : this() {
+    public ParalelepipedoRequest(ParalelepipedoRequest other) : this() {
       areaBase_ = other.areaBase_;
       altura_ = other.altura_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -329,8 +330,8 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Paralelepipedo Clone() {
-      return new Paralelepipedo(this);
+    public ParalelepipedoRequest Clone() {
+      return new ParalelepipedoRequest(this);
     }
 
     /// <summary>Field number for the "areaBase" field.</summary>
@@ -366,12 +367,12 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as Paralelepipedo);
+      return Equals(other as ParalelepipedoRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Paralelepipedo other) {
+    public bool Equals(ParalelepipedoRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -457,7 +458,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Paralelepipedo other) {
+    public void MergeFrom(ParalelepipedoRequest other) {
       if (other == null) {
         return;
       }
@@ -521,19 +522,19 @@ namespace gRPC_Server.Protos {
   }
 
   /// <summary>
-  /// Define uma mensagem 'Volume'.
+  /// Define uma mensagem 'VolumeReply'.
   /// Essa mensagem será usada para enviar o resultado das RPCs 'VolumePiramideBaseQuadrada' e 'VolumeParalelepipedo'.
   /// </summary>
-  public sealed partial class Volume : pb::IMessage<Volume>
+  public sealed partial class VolumeReply : pb::IMessage<VolumeReply>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Volume> _parser = new pb::MessageParser<Volume>(() => new Volume());
+    private static readonly pb::MessageParser<VolumeReply> _parser = new pb::MessageParser<VolumeReply>(() => new VolumeReply());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Volume> Parser { get { return _parser; } }
+    public static pb::MessageParser<VolumeReply> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -549,7 +550,7 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Volume() {
+    public VolumeReply() {
       OnConstruction();
     }
 
@@ -557,26 +558,26 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Volume(Volume other) : this() {
+    public VolumeReply(VolumeReply other) : this() {
       volume_ = other.volume_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Volume Clone() {
-      return new Volume(this);
+    public VolumeReply Clone() {
+      return new VolumeReply(this);
     }
 
-    /// <summary>Field number for the "volume_" field.</summary>
-    public const int Volume_FieldNumber = 1;
+    /// <summary>Field number for the "volume" field.</summary>
+    public const int VolumeFieldNumber = 1;
     private double volume_;
     /// <summary>
     /// Campo que representa o volume calculado.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public double Volume_ {
+    public double Volume {
       get { return volume_; }
       set {
         volume_ = value;
@@ -586,19 +587,19 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as Volume);
+      return Equals(other as VolumeReply);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Volume other) {
+    public bool Equals(VolumeReply other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Volume_, other.Volume_)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Volume, other.Volume)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -606,7 +607,7 @@ namespace gRPC_Server.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Volume_ != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Volume_);
+      if (Volume != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Volume);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -625,9 +626,9 @@ namespace gRPC_Server.Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Volume_ != 0D) {
+      if (Volume != 0D) {
         output.WriteRawTag(9);
-        output.WriteDouble(Volume_);
+        output.WriteDouble(Volume);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -639,9 +640,9 @@ namespace gRPC_Server.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Volume_ != 0D) {
+      if (Volume != 0D) {
         output.WriteRawTag(9);
-        output.WriteDouble(Volume_);
+        output.WriteDouble(Volume);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -653,7 +654,7 @@ namespace gRPC_Server.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Volume_ != 0D) {
+      if (Volume != 0D) {
         size += 1 + 8;
       }
       if (_unknownFields != null) {
@@ -664,12 +665,12 @@ namespace gRPC_Server.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Volume other) {
+    public void MergeFrom(VolumeReply other) {
       if (other == null) {
         return;
       }
-      if (other.Volume_ != 0D) {
-        Volume_ = other.Volume_;
+      if (other.Volume != 0D) {
+        Volume = other.Volume;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -687,7 +688,7 @@ namespace gRPC_Server.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 9: {
-            Volume_ = input.ReadDouble();
+            Volume = input.ReadDouble();
             break;
           }
         }
@@ -706,7 +707,7 @@ namespace gRPC_Server.Protos {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 9: {
-            Volume_ = input.ReadDouble();
+            Volume = input.ReadDouble();
             break;
           }
         }

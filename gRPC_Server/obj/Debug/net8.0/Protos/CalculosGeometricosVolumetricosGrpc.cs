@@ -52,27 +52,27 @@ namespace gRPC_Server.Protos {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::gRPC_Server.Protos.PiramideBaseQuadrada> __Marshaller_calculosGeometricosVolumetricos_PiramideBaseQuadrada = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.PiramideBaseQuadrada.Parser));
+    static readonly grpc::Marshaller<global::gRPC_Server.Protos.PiramideBaseQuadradaRequest> __Marshaller_calculosGeometricosVolumetricos_PiramideBaseQuadradaRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.PiramideBaseQuadradaRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::gRPC_Server.Protos.Volume> __Marshaller_calculosGeometricosVolumetricos_Volume = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.Volume.Parser));
+    static readonly grpc::Marshaller<global::gRPC_Server.Protos.VolumeReply> __Marshaller_calculosGeometricosVolumetricos_VolumeReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.VolumeReply.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::gRPC_Server.Protos.Paralelepipedo> __Marshaller_calculosGeometricosVolumetricos_Paralelepipedo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.Paralelepipedo.Parser));
+    static readonly grpc::Marshaller<global::gRPC_Server.Protos.ParalelepipedoRequest> __Marshaller_calculosGeometricosVolumetricos_ParalelepipedoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPC_Server.Protos.ParalelepipedoRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::gRPC_Server.Protos.PiramideBaseQuadrada, global::gRPC_Server.Protos.Volume> __Method_VolumePiramideBaseQuadrada = new grpc::Method<global::gRPC_Server.Protos.PiramideBaseQuadrada, global::gRPC_Server.Protos.Volume>(
+    static readonly grpc::Method<global::gRPC_Server.Protos.PiramideBaseQuadradaRequest, global::gRPC_Server.Protos.VolumeReply> __Method_VolumePiramideBaseQuadrada = new grpc::Method<global::gRPC_Server.Protos.PiramideBaseQuadradaRequest, global::gRPC_Server.Protos.VolumeReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "VolumePiramideBaseQuadrada",
-        __Marshaller_calculosGeometricosVolumetricos_PiramideBaseQuadrada,
-        __Marshaller_calculosGeometricosVolumetricos_Volume);
+        __Marshaller_calculosGeometricosVolumetricos_PiramideBaseQuadradaRequest,
+        __Marshaller_calculosGeometricosVolumetricos_VolumeReply);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::gRPC_Server.Protos.Paralelepipedo, global::gRPC_Server.Protos.Volume> __Method_VolumeParalelepipedo = new grpc::Method<global::gRPC_Server.Protos.Paralelepipedo, global::gRPC_Server.Protos.Volume>(
+    static readonly grpc::Method<global::gRPC_Server.Protos.ParalelepipedoRequest, global::gRPC_Server.Protos.VolumeReply> __Method_VolumeParalelepipedo = new grpc::Method<global::gRPC_Server.Protos.ParalelepipedoRequest, global::gRPC_Server.Protos.VolumeReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "VolumeParalelepipedo",
-        __Marshaller_calculosGeometricosVolumetricos_Paralelepipedo,
-        __Marshaller_calculosGeometricosVolumetricos_Volume);
+        __Marshaller_calculosGeometricosVolumetricos_ParalelepipedoRequest,
+        __Marshaller_calculosGeometricosVolumetricos_VolumeReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -92,20 +92,20 @@ namespace gRPC_Server.Protos {
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.Volume> VolumePiramideBaseQuadrada(global::gRPC_Server.Protos.PiramideBaseQuadrada request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.VolumeReply> VolumePiramideBaseQuadrada(global::gRPC_Server.Protos.PiramideBaseQuadradaRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       /// <summary>
       /// Define um método RPC chamado 'VolumeParalelepipedo'.
-      /// O cliente envia uma mensagem 'Paralelepipedo' e recebe uma mensagem 'Volume'.
+      /// O cliente envia uma mensagem 'Paralelepipedo' e recebe uma mensagem 'VolumeReply'.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.Volume> VolumeParalelepipedo(global::gRPC_Server.Protos.Paralelepipedo request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::gRPC_Server.Protos.VolumeReply> VolumeParalelepipedo(global::gRPC_Server.Protos.ParalelepipedoRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -129,8 +129,8 @@ namespace gRPC_Server.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, CalculoGeometricoVolumetricoBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_VolumePiramideBaseQuadrada, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.PiramideBaseQuadrada, global::gRPC_Server.Protos.Volume>(serviceImpl.VolumePiramideBaseQuadrada));
-      serviceBinder.AddMethod(__Method_VolumeParalelepipedo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.Paralelepipedo, global::gRPC_Server.Protos.Volume>(serviceImpl.VolumeParalelepipedo));
+      serviceBinder.AddMethod(__Method_VolumePiramideBaseQuadrada, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.PiramideBaseQuadradaRequest, global::gRPC_Server.Protos.VolumeReply>(serviceImpl.VolumePiramideBaseQuadrada));
+      serviceBinder.AddMethod(__Method_VolumeParalelepipedo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPC_Server.Protos.ParalelepipedoRequest, global::gRPC_Server.Protos.VolumeReply>(serviceImpl.VolumeParalelepipedo));
     }
 
   }

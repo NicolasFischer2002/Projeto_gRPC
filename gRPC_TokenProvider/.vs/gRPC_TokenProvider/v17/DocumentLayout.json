@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C337698C-D286-4B29-B624-56CE9892B323}|gRPC_TokenProvider.csproj|c:\\desenvolvimento\\projeto_grpc\\grpc_tokenprovider\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C337698C-D286-4B29-B624-56CE9892B323}|gRPC_TokenProvider.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C337698C-D286-4B29-B624-56CE9892B323}|gRPC_TokenProvider.csproj|c:\\desenvolvimento\\projeto_grpc\\grpc_tokenprovider\\token authentication\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C337698C-D286-4B29-B624-56CE9892B323}|gRPC_TokenProvider.csproj|solutionrelative:token authentication\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C337698C-D286-4B29-B624-56CE9892B323}|gRPC_TokenProvider.csproj|c:\\desenvolvimento\\projeto_grpc\\grpc_tokenprovider\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C337698C-D286-4B29-B624-56CE9892B323}|gRPC_TokenProvider.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T23:45:07.457Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtToken.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\Token Authentication\\JwtToken.cs",
+              "RelativeDocumentMoniker": "Token Authentication\\JwtToken.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\Token Authentication\\JwtToken.cs",
+              "RelativeToolTip": "Token Authentication\\JwtToken.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T23:50:58.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Projeto_gRPC\\gRPC_TokenProvider\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T23:48:37.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
